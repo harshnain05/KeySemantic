@@ -154,11 +154,11 @@ export const SEMANTICS_LIST = [
 ]
 
 
-export const QA_LI_LIST = [
+export const QA_LIST = [
     "Let customers discover your content using AI-generated questions and answers",
     "Seamlessly integrated into the Semantic Search experience",
     "LLM-powered Question Answering",
-]
+];
 
 export const Headless_List = [
     "API-First / Headless => integrate seamlessly with your applications",

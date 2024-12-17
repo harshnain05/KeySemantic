@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Heading from "../common/Heading";
-import { FAQ_LIST, QA_LI_LIST } from "../utils/Helper";
+import { FAQ_LIST, QA_LIST } from "../utils/Helper";
 import CustomList from "../common/CustomList";
 import { FaqArrow } from "../utils/Icon";
 import CustomButton from "../common/CommonButton";
@@ -23,9 +23,9 @@ const Accordian = () => {
       </div>
       <div>
         <Heading text={"Key Q&A"} />
-        <div className="ml-4 flex flex-col gap-4 max-md:gap-2 max-sm:gap-1">
-          {QA_LI_LIST.map((obj, i) => (
-            <CustomList key={i} text={obj} />
+        <div className="ml-4 flex flex-col text-black gap-4 max-md:gap-2 max-sm:gap-1">
+          {QA_LIST.map((obj, i) => (
+            <CustomList key={i} CustomListText={obj} />
           ))}
         </div>
         <div className="max-w-[552px] pt-4 flex flex-col gap-4 pb-6 mx-auto max-md:gap-2 max-sm:gap-1 max-md:pb-3">
