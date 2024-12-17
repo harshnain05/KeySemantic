@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.bg-top{
+    background-image: url(../public//assets/image/png/hero-bg.png);
+  
+}
+.bg-bootom{
+    background-image: url(../public/assets/image/png/footer.png);
+}
