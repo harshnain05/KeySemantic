@@ -1,3 +1,8 @@
+import documentLottie from '../lottie/document.json'
+import webSearchLottie from '../lottie/web-search.json'
+import searchLottie from '../lottie/search.json'
+
+
 export const CardData = [
     {
         description: "Websites, documents, and images are pushed into our Analysis API.",
@@ -133,6 +138,21 @@ export const FAQ_LIST = [
         answerThree: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
 ]
+export const SEMANTICS_LIST = [
+    {
+        lottie: documentLottie,
+        description: "Websites, documents and images are pushed into our Analysis API."
+    },
+    {
+        lottie: webSearchLottie,
+        description: "Using highly optimized and trained AI models, we analyze, vectorize and extract semantic information and relations from your content."
+    },
+    {
+        lottie: searchLottie,
+        description: "Our enterprise-grade semantic search engine allows you to query your content in many ways. You’ll be amazed by the speed, precision and relevance of the results!"
+    }
+]
+
 
 export const QA_LI_LIST = [
     "Let customers discover your content using AI-generated questions and answers",
