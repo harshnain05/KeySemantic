@@ -49,7 +49,7 @@ const KeySemantic = () => {
                         onChange={e => setValue({ ...value, name: e.target.value })}
                         type='text'
                         placeholder='Name'
-                        className='placeholder:text-light-purple text-light-purple rounded-[48px] bg-navy-blue mx-auto outline-none border-transparent py-4 w-[320px] pl-5'
+                        className='placeholder:text-[#7C7EB9] text-[#7C7EB9] rounded-[48px] bg-[#24254B] mx-auto outline-none border-transparent py-4 w-[320px] pl-5'
                     />
                     <p className='text-red-700 font-bold text-left'>
                         {error && !value.name && 'Name is required'}
@@ -59,7 +59,7 @@ const KeySemantic = () => {
                         onChange={e => setValue({ ...value, email: e.target.value })}
                         type='email'
                         placeholder='Email'
-                        className='placeholder:text-light-purple text-light-purple mt-2 outline-none border-transparent rounded-[48px] bg-navy-blue mx-auto py-4 w-[320px] pl-5'
+                        className='placeholder:text-[#7C7EB9] text-[#7C7EB9] mt-2 outline-none border-transparent rounded-[48px] bg-[#24254B] mx-auto py-4 w-[320px] pl-5'
                     />
                     <p className='text-red-700 font-bold text-left'>
                         {error && !value.email && 'Email is required'}
@@ -69,7 +69,7 @@ const KeySemantic = () => {
                         onChange={e => setValue({ ...value, company: e.target.value })}
                         type='text'
                         placeholder='Company'
-                        className='placeholder:text-light-purple text-light-purple mt-2 outline-none border-transparent rounded-[48px] bg-navy-blue mx-auto py-4 w-[320px] pl-5'
+                        className='placeholder:text-[#7C7EB9] text-[#7C7EB9] mt-2 outline-none border-transparent rounded-[48px] bg-[#24254B] mx-auto py-4 w-[320px] pl-5'
                     />
                     <p className='text-red-700 font-bold text-left'>
                         {error && !value.company && 'Company is required'}
@@ -79,12 +79,12 @@ const KeySemantic = () => {
                         onChange={e => setValue({ ...value, number: e.target.value })}
                         type='number'
                         placeholder='Phone (optional)'
-                        className='placeholder:text-light-purple text-light-purple mt-2 outline-none border-transparent rounded-[48px] bg-navy-blue mx-auto py-4 w-[320px] pl-5'
+                        className='placeholder:text-[#7C7EB9] text-[#7C7EB9] mt-2 outline-none border-transparent rounded-[48px] bg-[#24254B] mx-auto py-4 w-[320px] pl-5'
                     />
                     <p className='text-red-700 font-bold text-left'>
                         {error && !value.number && 'Number is required'}
                     </p>
-                    <p className='text-center text-[#7C7DB9] text-light-purple mt-4 mb-6 text-[10px]'>
+                    <p className='text-center text-[#7C7DB9] mt-4 mb-6 text-[10px]'>
                         By submitting my contact information I agree to the KeySemantics
                         Privacy Policy
                     </p>

@@ -33,7 +33,7 @@ const Accordian = () => {
             <div key={i} className={`pt-2 pb-4 border-b border-silver ${i === 0 ? "border-t border-silver pt-4" : ""}`}>
               <button
                 onClick={() => toggleAccordion(i)}
-                className="flex justify-between w-full items-center text-lg text-blue-dark leading-custom-4xl font-medium max-md:text-base"
+                className="flex justify-between w-full items-center text-lg text-[#191A42] leading-[120%] font-medium max-md:text-base"
               >
                 {obj.question}
                 <span className={`ml-2 ${openIndex === i ? "rotate-180" : "rotate-0"} duration-500 ease-linear transition-all`}><FaqArrow /></span>
@@ -42,13 +42,13 @@ const Accordian = () => {
                 className={`flex flex-col overflow-hidden transition-[max-height] duration-700 ease-linear ${openIndex === i ? "max-h-[440px] max-md:max-h-[640px]" : "max-h-0"
                   }`}
               >
-                <p className="pt-4 text-base font-normal text-blue-dark tracking-tight leading-custom-175 max-md:text-sm">{obj.answerOne}</p>
-                <p className="pt-3 text-base font-normal text-blue-dark tracking-tight leading-custom-175 max-md:text-sm">{obj.answerTwo}</p>
+                <p className="pt-4 text-base font-normal text-[#191A42] tracking-tight leading-[175%] max-md:text-sm">{obj.answerOne}</p>
+                <p className="pt-3 text-base font-normal text-[#191A42] tracking-tight leading-[175%] max-md:text-sm">{obj.answerTwo}</p>
                 <div className="flex gap-3 py-4">
                   <img className="max-w-[268px] w-full" src='./assets/image/png/faq-interior-one.png' alt="faq-image" />
                   <img className="max-w-[268px] w-full" src='./assets/image/png/faq-interior-two.png' alt="faq-imgage" />
                 </div>
-                <p className="text-base font-normal text-blue-dark tracking-tight leading-custom-175 max-md:text-sm">{obj.answerThree}</p>
+                <p className="text-base font-normal text-[#191A42] tracking-tight leading-[175%] max-md:text-sm">{obj.answerThree}</p>
               </div>
             </div>
           ))}
