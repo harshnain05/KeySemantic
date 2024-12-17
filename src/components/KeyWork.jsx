@@ -8,7 +8,7 @@ const KeyWork = () => {
     return (
         <>
             <div className='bg-white'>
-                <div className='container pb-6 pt-24 max-lg:pt-16 max-md:pt-10 max-sm:py-6'>
+                <div className='container mx-auto pb-6 pt-24 max-lg:pt-16 max-md:pt-10 max-sm:py-6'>
                     <div className='text-center'>
                         <Heading text="How does KeySemantics work?" />
                     </div>
