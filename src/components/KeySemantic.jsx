@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import SubHeading from '../common/SubHeading'
 import Description from '../common/Description'
-import CustomButton from '../common/CommonButton'
 
 const FORM_LIST = {
     name: '',
