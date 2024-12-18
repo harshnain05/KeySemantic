@@ -13,7 +13,7 @@ const Accordian = () => {
   };
 
   return (
-    <div className="container justufy-center w-full flex max-lg:flex-wrap max-lg:justify-center gap-12 mx-auto pb-[148px] max-xl:px-5 pt-[81px] max-lg:pt-16 max-md:pt-10 max-sm:pt-8 max-lg:pb-28 max-md:pb-20 max-sm:pb-12 max-md:gap-6 max-sm:gap-3">
+    <div className="container justufy-center w-full flex max-lg:flex-wrap max-lg:justify-center gap-12 mx-auto max-xl:px-5 pt-[90px] max-lg:pt-16 max-md:pt-10 max-sm:pt-8 max-lg:pb-28 max-md:pb-20 max-sm:pb-12 max-md:gap-6 max-sm:gap-3">
       <div className="relative">
         <img
           className="max-w-[600px] sticky top-0 mx-auto w-full"
