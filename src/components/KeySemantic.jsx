@@ -71,7 +71,7 @@ const KeySemantic = () => {
                         className='placeholder:text-[#7C7EB9] text-[#7C7EB9] mt-2 outline-none border-transparent rounded-[48px] bg-[#24254B] mx-auto py-4 w-[320px] pl-5'
                     />
                     <p className='text-red-700 font-bold text-left'>
-                        {error && !value.company && 'Company is required'}
+                        {error && !value.company && 'Company is required'} 
                     </p>
                     <input
                         value={value.number}
