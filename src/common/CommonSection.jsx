@@ -2,7 +2,7 @@ import React from 'react';
 import Heading from './Heading';
 import CommonButton from './CommonButton';
 
-const CommonSection = ({ CommonText, btnText, SectionList, PeopleImg, myClass }) => {
+const CommonSection = ({ CommonText, SectionList, PeopleImg, myClass }) => {
     return (
         <div className={`${myClass} flex items-center gap-12 max-lg:flex-wrap max-lg:justify-center`}>
             <div className='w-6/12 px-2 max-lg:w-full'>

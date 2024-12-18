@@ -3,7 +3,7 @@ import Heading from "../common/Heading";
 import { ACCORDION_LIST} from "../utils/Helper";
 import { INTER_LIST } from "../utils/Helper";
 import CustomList from "../common/CustomList";
-import { FaqArrow } from "../utils/Icon";
+import { FAQARROW } from "../utils/Icon";
 import CustomButton from "../common/CommonButton";
 
 const Accordian = () => {
@@ -37,7 +37,7 @@ const Accordian = () => {
                 className="flex justify-between w-full items-center text-lg text-[#191A42] leading-[120%] font-medium max-md:text-base"
               >
                 {obj.question}
-                <span className={`ml-2 ${openIndex === i ? "rotate-180" : "rotate-0"} duration-500 ease-linear transition-all`}><FaqArrow /></span>
+                <span className={`ml-2 ${openIndex === i ? "rotate-180" : "rotate-0"} duration-500 ease-linear transition-all`}><FAQARROW /></span>
               </button>
               <div
                 className={`flex flex-col overflow-hidden transition-[max-height] duration-700 ease-linear ${openIndex === i ? "max-h-[440px] max-md:max-h-[640px]" : "max-h-0"

@@ -1,7 +1,7 @@
 import React from 'react'
 import { DATA_LIST } from '../utils/Helper'
-
 import CommonSections from '../common/CommonSection'
+
 const DataSecurity = () => {
     return (
         <section className='max-w-[1440px] px-5 mx-auto'>
@@ -9,10 +9,10 @@ const DataSecurity = () => {
                 <CommonSections
                     CommonText="Data Security and Hosting"
                     SectionList={DATA_LIST}
-                    btnText="Get a Demo"
                     PeopleImg='./assets/image/png/security.png'
                     myClass='flex-row-reverse'
                 />
+              
             </div>
         </section>
     )
