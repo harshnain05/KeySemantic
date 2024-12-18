@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 
 const Hero = () => {
     return (
-        <div className=" bg-top bg-no-repeat bg-cover ">
+        <div className=" bg-top bg-[#F7F9FB] bg-no-repeat bg-cover ">
         <NavBar/>
         <div className="min-h-screen flex-wrap flex ">
            
