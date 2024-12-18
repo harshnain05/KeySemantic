@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Heading from "../common/Heading";
-import { FAQ_LIST, QA_LIST } from "../utils/Helper";
+import { ACCORDION_LIST} from "../utils/Helper";
+import { INTER_LIST } from "../utils/Helper";
 import CustomList from "../common/CustomList";
 import { FaqArrow } from "../utils/Icon";
 import CustomButton from "../common/CommonButton";
@@ -13,7 +14,7 @@ const Accordian = () => {
   };
 
   return (
-    <div className="container justufy-center w-full flex max-lg:flex-wrap max-lg:justify-center gap-12 mx-auto max-xl:px-5 pt-[90px] max-lg:pt-16 max-md:pt-10 max-sm:pt-8 max-lg:pb-28 max-md:pb-20 max-sm:pb-12 max-md:gap-6 max-sm:gap-3">
+    <div className="container max-w-[1200px] justufy-center w-full flex max-lg:flex-wrap max-lg:justify-center gap-12 mx-auto max-xl:px-5 pt-[90px] max-lg:pt-16 max-md:pt-10 max-sm:pt-8 max-lg:pb-28 max-md:pb-20 max-sm:pb-12 max-md:gap-6 max-sm:gap-3">
       <div className="relative">
         <img
           className="max-w-[600px] sticky top-0 mx-auto w-full"
@@ -24,12 +25,12 @@ const Accordian = () => {
       <div>
         <Heading text={"Key Q&A"} />
         <div className="ml-4 flex flex-col text-black gap-4 max-md:gap-2 max-sm:gap-1">
-          {QA_LIST.map((obj, i) => (
+          {INTER_LIST.map((obj, i) => (
             <CustomList key={i} CustomListText={obj} />
           ))}
         </div>
         <div className="max-w-[552px] pt-4 flex flex-col gap-4 pb-6 mx-auto max-md:gap-2 max-sm:gap-1 max-md:pb-3">
-          {FAQ_LIST.map((obj, i) => (
+          {ACCORDION_LIST.map((obj, i) => (
             <div key={i} className={`pt-2 pb-4 border-b border-silver ${i === 0 ? "border-t border-silver pt-4" : ""}`}>
               <button
                 onClick={() => toggleAccordion(i)}
@@ -45,8 +46,8 @@ const Accordian = () => {
                 <p className="pt-4 text-base font-normal text-[#191A42] tracking-tight leading-[175%] max-md:text-sm">{obj.answerOne}</p>
                 <p className="pt-3 text-base font-normal text-[#191A42] tracking-tight leading-[175%] max-md:text-sm">{obj.answerTwo}</p>
                 <div className="flex gap-3 py-4">
-                  <img className="max-w-[268px] w-full" src='./assets/image/png/faq-interior-one.png' alt="faq-image" />
-                  <img className="max-w-[268px] w-full" src='./assets/image/png/faq-interior-two.png' alt="faq-imgage" />
+                  <img className="max-w-[268px] w-full" src='./assets/image/png/faq-interior-one.png' alt="inside-image" />
+                  <img className="max-w-[268px] w-full" src='./assets/image/png/faq-interior-two.png' alt="inside-imgage" />
                 </div>
                 <p className="text-base font-normal text-[#191A42] tracking-tight leading-[175%] max-md:text-sm">{obj.answerThree}</p>
               </div>

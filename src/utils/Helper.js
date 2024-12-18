@@ -104,7 +104,7 @@ export const CardData = [
     },
 ];
 
-export const FAQ_LIST = [
+export const ACCORDION_LIST = [
     {
         question: "Accordion Heading #one",
         answerOne: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -154,18 +154,18 @@ export const SEMANTICS_LIST = [
 ]
 
 
-export const QA_LIST = [
+export const INTER_LIST = [
     "Let customers discover your content using AI-generated questions and answers",
     "Seamlessly integrated into the Semantic Search experience",
     "LLM-powered Question Answering",
 ];
 
-export const Headless_List = [
+export const HEADLESS_LIST = [
     "API-First / Headless => integrate seamlessly with your applications",
     "Combine data from multiple sources",
     "Push / Crawl => Your choice: Push your data to our APIs or let our crawlers crawl your content",
 ];
-export const Data_List = [
+export const DATA_LIST = [
     "SaaS => we provide the search infrastructure so you can focus on your applications",
     "Hosted in a Swiss datacenter by Microsoft"
 ]

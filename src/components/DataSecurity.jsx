@@ -1,5 +1,5 @@
 import React from 'react'
-import { Data_List } from '../utils/Helper'
+import { DATA_LIST } from '../utils/Helper'
 
 import CommonSections from '../common/CommonSection'
 const DataSecurity = () => {
@@ -8,7 +8,7 @@ const DataSecurity = () => {
             <div className='container pb-[164px] px-1 max-xl:pb-32 max-lg:pb-24 max-md:pb-16 max-sm:pb-10'>
                 <CommonSections
                     CommonText="Data Security and Hosting"
-                    SectionList={Data_List}
+                    SectionList={DATA_LIST}
                     btnText="Get a Demo"
                     PeopleImg='./assets/image/png/security.png'
                     myClass='flex-row-reverse'
